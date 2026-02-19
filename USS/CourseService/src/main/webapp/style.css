@@ -1,0 +1,31 @@
+:root {
+    --primary: #1e3c72;
+    --secondary: #2a5298;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --bg: #f8fafc;
+}
+
+body { background-color: var(--bg); font-family: 'Segoe UI', system-ui, sans-serif; margin: 0; }
+
+/* Navigation */
+.navbar-custom {
+    background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+    padding: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.navbar-brand { font-weight: 800; color: white !important; }
+.nav-link { color: rgba(255,255,255,0.9) !important; margin-left: 1.5rem; font-weight: 500; }
+.nav-link:hover { color: white !important; }
+
+/* Layout & UI */
+.main-container { margin-top: 40px; padding-bottom: 40px; }
+.glass-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+.btn-primary { background: var(--primary); border: none; }
+.table thead { background-color: #f1f5f9; color: var(--primary); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
